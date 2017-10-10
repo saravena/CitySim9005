@@ -14,7 +14,7 @@ public class Driving {
 	}
 	
 	// Begin driving through city until you leave
-	public void start() {
+	public void begin() {
 		int startArea = 0;
 		
 		do {
@@ -81,10 +81,5 @@ public class Driving {
 	public void printArea(int startArea, int newArea) {
 		System.out.println("Driver " + driveNum + " heading from " + getAreaName(startArea) + " to " + getAreaName(newArea) +
 							" via " + getStreet(startArea, newArea));
-	}
-	
-	public void printLeave () {
-		
-		System.out.println("Driver " + driveNum + " has left the city!");
 	}
 }

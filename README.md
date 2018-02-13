@@ -1,1 +1,3 @@
-CS 1632 - Deliverable 2: Unit Testing CitySim9005
+CitySim9005
+
+A small city simulator written in Java, followed by a short series of unit tests using jUnit.
